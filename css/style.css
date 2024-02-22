@@ -4,3 +4,121 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/* common */
+/* nav{
+    display: flex;
+} */
+
+/* BODY */
+.container{
+    background-color: black;
+
+    /* debug */
+    min-height: 6000px;
+}
+
+.adress{
+    background-color: #ADD8E6;
+    padding-top: 5px;
+
+    /* debug */
+    height: 50px;
+    width: 70%;
+}
+
+.login-menu{
+    background-color: #DAA520;
+    text-align: center;
+
+    /* debug */
+    height: 30px; 
+}
+
+.bg-blue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    background-color: #00008B;
+}
+
+.bg-pink{
+    background-color: #EE82EE;
+    
+    /* debug */
+    height: 200px;
+    width: 35%;
+    margin: 30px;
+}
+
+.bg-white{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    background-color: white;
+}
+
+.bg-lightgray{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    background-color: lightgray;
+}
+
+.bg-lightpink{
+    background-color: #FFC0CB;
+    
+    /* debug */
+    height: 300px;
+    width: 50%;
+    margin: 30px;
+}
+
+.bg-lightpink2{
+    background-color: #FFC0CB;
+    
+    /* debug */
+    height: 300px;
+    width: 50%;
+    margin: 30px;
+}
+
+
+.bg-lightblue{
+    background-color: #1E90FF;
+
+    /* debug */
+    height: 100%;
+    width: 65%;
+}
+
+.bg-lightblue2{
+    background-color: #1E90FF;
+
+    /* debug */
+    height: 100%;
+    width: 35%;
+}
+
+.bg-greensquare{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    background-color: lightgrey;
+}
+
+.bg-green{
+    background-color: green;
+    
+    /* debug */
+    height: 600px;
+    width: 35%;
+    margin: 30px
+}
+
+
