@@ -5,35 +5,33 @@
     box-sizing: border-box;
 }
 
-
-/* common */
-/* nav{
-    display: flex;
-} */
-
 /* BODY */
 .container{
-    background-color: black;
-
-    /* debug */
-    min-height: 6000px;
+    
+    /* RAGGRUPPARE TUTTE LE RIPETIZIONI */
+    
 }
+
+/* .block{
+    
+} */
 
 .adress{
     background-color: #ADD8E6;
-    padding-top: 5px;
+    display: flex;
+    justify-content: center;
 
     /* debug */
     height: 50px;
-    width: 70%;
 }
 
 .login-menu{
     background-color: #DAA520;
-    text-align: center;
-
-    /* debug */
-    height: 30px; 
+    display: flex;
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px dashed black;
 }
 
 .bg-blue{
@@ -122,3 +120,56 @@
 }
 
 
+/* SEZIONE FINALE */
+
+.bg-black {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    background-color: black;
+}
+
+.bg-salmon{
+    background-color: #F08080;
+    
+    /* debug */
+    height: 400px;
+    width: 50%;
+    margin: 30px;
+}
+
+.bg-turq{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    background-color: #20B2AA;
+}
+
+/* FOOTER */
+
+.foot-black{
+    background-color: black;
+    margin-top: 5px;
+
+    display: flex;
+    justify-content: center;
+
+    /* debug */
+    height: 100px;
+}
+
+.foot-turq{
+    background-color: #7FFFD4;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.style-input{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border: 2px dashed black;
+}
